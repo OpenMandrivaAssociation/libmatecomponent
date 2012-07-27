@@ -4,21 +4,21 @@
 %define libactivation	%mklibname matecomponent-activation %{act_major}
 %define develname	%mklibname matecomponent -d
 
-Name:		libmatecomponent
 Summary:	A fork of GNOME libbonobo
-Version:	1.2.1
+Name:		libmatecomponent
+Version:	1.4.0
 Release:	1
 License:	GPLv3+
 Group:		Graphical desktop/Other
 URL:		http://www.mate-desktop.org
-Source0:	http://pub.mate-desktop.org/releases/1.2/%{name}-%{version}.tar.xz
+Source0:	http://pub.mate-desktop.org/releases/1.4/%{name}-%{version}.tar.xz
 BuildRequires:	bison
 BuildRequires:	flex
-BuildRequires:	gtk-doc >= 1.0
-BuildRequires:	intltool >= 0.25
+BuildRequires:	gtk-doc
+BuildRequires:	intltool
 BuildRequires:	mate-common
 BuildRequires:	pkgconfig(MateCORBA-2.0)
-BuildRequires:	pkgconfig(popt) >= 1.5
+BuildRequires:	pkgconfig(popt)
 
 %description
 libmatecomponent is a fork of GNOME libbonobo.
