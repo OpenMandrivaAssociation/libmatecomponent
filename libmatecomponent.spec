@@ -108,3 +108,14 @@ This package contains the development files for %{name}.
 %{_datadir}/gtk-doc/html/matecomponent-activation/*
 %dir %{_datadir}/gtk-doc/html/libmatecomponent
 %{_datadir}/gtk-doc/html/libmatecomponent/*
+
+
+%changelog
+* Fri Jul 27 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.4.0-1
++ Revision: 811336
+- new version 1.4.0
+
+* Tue May 29 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.2.1-1
++ Revision: 801126
+- imported package libmatecomponent
+
